@@ -2,7 +2,7 @@ package com.lawson.testdrivendevelopment.search.breadthdepth;
 
 public class RottingOranges {
 
-    /**
+    /*
      * NOTE: DO NOT BE AFRAID TO UTILIZE SIMPLE SOLUTIONS
      * OR PRE SEARCH FOR HELPFUL DATA
      *
