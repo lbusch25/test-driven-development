@@ -28,4 +28,16 @@ class ClimbingStairsTest {
         int n = 5;
         Assertions.assertEquals(8, ClimbingStairs.climbStairs(n));
     }
+
+    @Test
+    void minClimbingStairs_1() {
+        int[] cost = new int[]{10, 15, 20};
+        Assertions.assertEquals(15, ClimbingStairs.minCostClimbingStairs(cost));
+    }
+
+    @Test
+    void minClimbingStairs_2() {
+        int[] cost = new int[]{1,100,1,1,1,100,1,1,100,1};
+        Assertions.assertEquals(6, ClimbingStairs.minCostClimbingStairs(cost));
+    }
 }
